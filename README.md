@@ -12,7 +12,7 @@ This repository contains a modular video processing pipeline implemented in VHDL
 The Sobel Edge Detection core has been verified using **Vivado Simulator**. The simulation confirms that the hardware logic correctly identifies edges by calculating Gx and Gy gradients.
 
 ### Waveform Analysis
-![Sobel Verification](sobel_waveform.png)
+![Sobel Verification](sobel_simulation_result.png)
 
 *The waveform shows the **Gsum** signal peaking at **1020** when an edge is detected, confirming the thresholding logic and mathematical accuracy of the core.*
 
