@@ -40,4 +40,4 @@ The design has been rigorously verified using the **Vivado Simulator**. The test
 - [ ] Hardware-in-the-loop (HIL) testing on a physical FPGA development board (e.g., Zybo or Nexys).
 
 ---
-**Author:** [Senin Adın Soyadın] - Final Year EEE Student at Istanbul Topkapı University
+**Author:** [Mehmet Bera Kaya] 
