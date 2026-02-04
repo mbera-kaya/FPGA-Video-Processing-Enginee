@@ -17,5 +17,15 @@ Repository Structure
 * `/sim`: Testbench files for behavioral simulation.
 * `/doc`: Project documentation and architecture diagrams.
 
+## Functional Verification
+The core logic has been verified through RTL simulation using a custom VHDL testbench in Vivado.
+
+* **AXI4-Stream Compliance:** Verified seamless data flow control with `TVALID`/`TREADY` handshake.
+* **Bit-Accurate Results:** Successfully validated RGB-to-Grayscale conversion logic.
+* **Pipeline Latency:** Confirmed 1-clock cycle deterministic processing delay.
+
+![Simulation Waveform](simulation_waveform.png)
+
+
 ---
 *Note: This project is part of my continuous study on FPGA-based hardware acceleration and digital system design.*
